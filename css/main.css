@@ -1,7 +1,9 @@
 @charset "utf-8";
 @import url('reset.css');
 
-body {}
+body {
+    font-family: 'Pretendard';
+}
 
 #wrap {
     max-width: 1024px;
@@ -161,6 +163,8 @@ body {}
 .main .con-2 {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
 }
 .main .con-2 h2 {
     font-size: 20px;
@@ -192,5 +196,98 @@ body {}
     margin-bottom: 5px;
 }
 .main .con-2 .list .item .text p {
+    font-size: 13px;
+}
+
+
+.main .con-3 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
+}
+.main .con-3 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main .con-3 .list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.main .con-3 .list .item {
+    width: 32%;
+}
+.main .con-3 .list .item img {
+    width: 100%;
+    height: 183px;
+    object-fit: cover;
+    border: 0.5px solid #33333325;
+    border-radius: 5px;
+}
+.main .con-3 .list .item .text {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.main .con-3 .list .item .text h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.main .con-3 .list .item .text p {
+    font-size: 13px;
+}
+
+
+.main .con-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main .con-4 h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main .con-4 .nav ul {
+    margin: 15px 0;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .con-4 .nav ul li {
+    text-align: center;
+    padding: 10px;
+    background-color: #d9d9d9;
+}
+
+.main .con-4 .list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.main .con-4 .list .item {
+    width: 32%;
+}
+.main .con-4 .list .item img {
+    width: 100%;
+    height: 183px;
+    object-fit: cover;
+    border: 0.5px solid #33333325;
+    border-radius: 5px;
+}
+.main .con-4 .list .item .text {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.main .con-4 .list .item .text h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.main .con-4 .list .item .text p {
     font-size: 13px;
 }
