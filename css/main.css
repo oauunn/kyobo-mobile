@@ -244,6 +244,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
 }
 
 .main .con-4 h2 {
@@ -291,3 +293,109 @@ body {
 .main .con-4 .list .item .text p {
     font-size: 13px;
 }
+
+
+.main .con-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
+}
+.main .con-5 .list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.main .con-5 .list .item {
+    width: 32%;
+}
+.main .con-5 .list .item img {
+    width: 100%;
+    height: 183px;
+    object-fit: cover;
+    border: 0.5px solid #33333325;
+    border-radius: 5px;
+}
+.main .con-5 .list .item .text {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.main .con-5 .list .item .text h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.main .con-5 .list .item .text p {
+        font-size: 13px;
+
+}
+
+
+.main .rank {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
+}
+.main .rank .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main .rank .title ul {
+    display: flex;
+    gap: 15px;
+}
+.main .rank .title ul li:last-child {
+    color: #33333360;
+}
+.main .rank .nav {
+    font-size: 14px;
+    height: 17px;
+    margin-bottom: 20px;
+}
+.main .rank .nav ul {
+    width: fit-content;
+    display: flex;
+    gap: 13px;
+}
+.main .rank .nav ul li:first-child {
+    color: #6DB329;
+    font-weight: bold;
+    border-bottom: 2px solid #6DB329;
+}
+.main .rank .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main .rank .list .item {
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+}
+.main .rank .list .item .box .image a img {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+}
+.main .rank .list .item .box .icon {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+.main .rank .list .item .box .icon ul {
+    display: flex;
+    gap: 5px;
+    background-color: orange;
+}
+.main .rank .list .item .box .icon img {
+    height: 17px;
+    object-fit: cover;
+}
+.main .rank .list .item .text {
+    background-color: red;
+}
+.main .rank .list .item .text strong {}
+.main .rank .list .item .text p {}
