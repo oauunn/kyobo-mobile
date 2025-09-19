@@ -445,8 +445,21 @@ body {
     gap: 15px;
 }
 
-.main .rank .list .item .text .rank_box {
+.main .rank .list .item .text .up {
     display: flex;
     gap: 15px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.main .rank .list .item .text .down {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    color: #081D58;
+}
+.main .rank .list .item .text .new {
+    color: #6DB329;
+    font-weight: 500;
     margin-bottom: 10px;
 }
