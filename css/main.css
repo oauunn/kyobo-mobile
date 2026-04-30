@@ -47,6 +47,10 @@ body {
     gap: 15px;
 }
 
+.header .inner .header-top .nav-1 img {
+    width: 22px;
+    object-fit: cover;
+}
 .header .inner .header-bottom {
     display: flex;
     flex-direction: column;
@@ -75,7 +79,7 @@ body {
 }
 
 .header .inner .header-bottom .search img {
-    width: 25px;
+    width: 22px;
     object-fit: cover;
 }
 
